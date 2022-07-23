@@ -10,7 +10,7 @@ import androidx.lifecycle.ViewModelProvider
 import com.example.clockapp.databinding.ActivityMainBinding
 import com.google.android.material.card.MaterialCardView
 
-//@auther Ali Assalem
+//@auther Ali_Assalem
 class MainActivity : AppCompatActivity() {
     private val viewModel:MainViewModel by lazy {
         ViewModelProvider(this).get(MainViewModel::class.java)
