@@ -7,8 +7,9 @@ import androidx.lifecycle.viewModelScope
 import kotlinx.coroutines.delay
 import kotlinx.coroutines.launch
 
+//@auther Ali_Assalem
 class MainViewModel : ViewModel() {
-    //region LiveData , if u just using one number ^_^
+    //region LiveData ^_^
     private val _segmentTopLiveData = MutableLiveData(R.color.unselected)
     val segmentTopLiveData : LiveData<Int> = _segmentTopLiveData
 
